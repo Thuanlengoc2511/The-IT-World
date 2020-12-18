@@ -22,6 +22,35 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Navigation bar style */
+.inside-navigation {
+  display: flex;
+  justify-content: left;
+  padding: 38px;
+}
+
+.decoration {
+  display: flex;
+}
+
+.inside-navigation > .decoration {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: medium;
+  font-weight: 200;
+}
+
+.decoration a {
+  text-decoration: none;
+  color: rgb(15, 1, 1);
+}
+
+/* Content style */
+.content-decoration {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 18px;
